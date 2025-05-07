@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Rain.gg - Use Code MEASTER for Exclusive Rewards",
   description:
-    "Get exclusive rewards, dynamic rakeback, and join community events when you use referral code MEASTER on Rain.gg",
+    "Get exclusive rewards, dynamic rakeback, and join community events when you use affiliate code MEASTER on Rain.gg",
     generator: 'v0.dev'
 }
 
