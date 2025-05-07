@@ -430,11 +430,11 @@ export default function Home() {
           </div>
           <div className="mt-8 text-center">
             <p className="text-sm text-gray-500">
-              This is a promotional website for Rain.gg referral code MEASTER. Rain.gg and its logos are property of
+              This is a promotional website for Rain.gg affiliate code MEASTER. Rain.gg and its logos are property of
               their respective owners.
             </p>
             <p className="mt-2 text-sm text-gray-500">
-              © {new Date().getFullYear()} MEASTER Referral Program. All rights reserved.
+              © {new Date().getFullYear()} MEASTER Affiliate Program. All rights reserved.
             </p>
           </div>
         </div>
