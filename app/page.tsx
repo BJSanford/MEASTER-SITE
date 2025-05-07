@@ -62,7 +62,7 @@ export default function Home() {
                 size="lg"
                 className="bg-gradient-to-r from-yellow-500 to-amber-500 text-black hover:from-yellow-600 hover:to-amber-600"
               >
-                <Link href="/login">Register with Code MEASTER</Link>
+                <Link href="/login">Play with Code MEASTER</Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-gray-700 text-white hover:bg-gray-800">
                 <Link href="#benefits">
