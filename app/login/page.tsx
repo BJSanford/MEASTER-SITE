@@ -158,7 +158,7 @@ export default function LoginPage() {
                       />
                     </div>
                     <div className="grid gap-2">
-                      <Label htmlFor="referral-code">Referral Code</Label>
+                      <Label htmlFor="referral-code">Affiliate Code</Label>
                       <Input
                         id="referral-code"
                         type="text"
@@ -167,7 +167,7 @@ export default function LoginPage() {
                         readOnly
                       />
                       <p className="text-xs text-gray-400">
-                        The MEASTER referral code is pre-applied for your benefits
+                        The MEASTER Affiliate code is pre-applied for your benefits
                       </p>
                     </div>
                     <Button
