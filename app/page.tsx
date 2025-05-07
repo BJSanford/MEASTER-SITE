@@ -362,7 +362,7 @@ export default function Home() {
           <div className="mx-auto max-w-3xl rounded-2xl border border-gray-800 bg-gray-900/80 p-8 text-center backdrop-blur-sm">
             <h2 className="mb-4 text-4xl font-bold">Ready to Get Started?</h2>
             <p className="mb-8 text-gray-300">
-              Join Hundreds of players already enjoying enhanced rewards with code MEASTER
+              Join Tons of players already enjoying enhanced rewards with code MEASTER
             </p>
             <div className="mb-8 flex flex-col items-center justify-center">
               <div className="mb-4 rounded-lg border border-gray-700 bg-gray-800 px-6 py-3">
