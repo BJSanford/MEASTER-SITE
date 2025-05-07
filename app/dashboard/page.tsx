@@ -35,12 +35,28 @@ const mockUserData = {
 // Mock giveaway data
 const mockGiveaways = [
   {
+    id: 1,
+    title: "Weekly $500 Giveaway",
+    prizePool: 500,
+    endsIn: "2d 14h 32m",
+    participants: 124,
+    type: "weekly",
+  },
+  {
     id: 2,
     title: "Monthly Skin Giveaway",
     prizePool: 2500,
     endsIn: "12d 8h 15m",
     participants: 342,
     type: "monthly",
+  },
+  {
+    id: 3,
+    title: "Special Tournament Prize",
+    prizePool: 1000,
+    endsIn: "5d 22h 45m",
+    participants: 89,
+    type: "special",
   },
 ]
 
@@ -55,7 +71,7 @@ const mockRewardItems = [
   },
   {
     id: 2,
-    name: "10 Rain Coins",
+    name: "$10 Rain Coins",
     cost: 180,
     image: "/placeholder.svg?height=80&width=80",
     category: "coins",
@@ -645,7 +661,7 @@ export default function Dashboard() {
                           <h4 className="font-medium">Wager on Rain.gg</h4>
                         </div>
                         <p className="text-sm text-gray-400">
-                          Earn 1 Measter Coin for every $10 wagered while using the MEASTER referral code.
+                          Earn 1 Measter Coin for every $10 wagered while using the MEASTER affliate code.
                         </p>
                       </div>
                       <div className="rounded-lg border border-gray-800 p-4">
@@ -658,6 +674,27 @@ export default function Dashboard() {
                         <p className="text-sm text-gray-400">
                           Earn 5 Measter Coins for logging in daily and checking in on the website.
                         </p>
+                      </div>
+                      <div className="rounded-lg border border-gray-800 p-4">
+                        <div className="mb-2 flex items-center gap-3">
+                          <div className="rounded-full bg-amber-900/30 p-2">
+                            <Trophy className="h-5 w-5 text-amber-500" />
+                          </div>
+                          <h4 className="font-medium"></h4>
+                        </div>
+                        <p className="text-sm text-gray-400">
+                          
+                        </p>
+                      </div>
+                      <div className="rounded-lg border border-gray-800 p-4">
+                        <div className="mb-2 flex items-center gap-3">
+                          <div className="rounded-full bg-amber-900/30 p-2">
+                            <Users className="h-5 w-5 text-amber-500" />
+                          </div>
+                          <h4 className="font-medium"></h4>
+                        </div>
+                        <p className="text-sm text-gray-400">
+                          
                         </p>
                       </div>
                     </div>
@@ -722,7 +759,7 @@ export default function Dashboard() {
                       amount can participate.
                     </p>
                     <p className="mb-4 text-gray-400">
-                      Participants spend coins on battles, and the player with the most winning battle calls wins the
+                      Participants call Measters battles, and the player with the most winning battle calls wins the
                       tournament.
                     </p>
                     <p className="text-gray-400">
