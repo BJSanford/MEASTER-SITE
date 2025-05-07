@@ -106,7 +106,7 @@ export default function Home() {
               ?
             </h2>
             <p className="mx-auto max-w-2xl text-gray-400">
-              Our referral code connects you to Measter's community and gives you access to exclusive events and
+              Our affiliate code connects you to Measter's community and gives you access to exclusive giveaways and
               rakeback benefits.
             </p>
           </div>
