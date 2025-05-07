@@ -280,29 +280,6 @@ export default function Home() {
                       <h4 className="font-medium">Wager on Rain.gg</h4>
                       <p className="text-sm text-gray-400">Earn 1 Measter Coin for every $10 wagered</p>
                     </div>
-                  </div>
-                  <div className="flex items-center gap-4 rounded-lg border border-gray-800 p-4">
-                    <div className="rounded-full bg-amber-900/30 p-3">
-                      <Users className="h-6 w-6 text-amber-500" />
-                    </div>
-                    <div>
-                      <h4 className="font-medium">Refer Friends</h4>
-                      <p className="text-sm text-gray-400">Earn 50 Measter Coins for each referral</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4 rounded-lg border border-gray-800 p-4">
-                    <div className="rounded-full bg-amber-900/30 p-3">
-                      <Trophy className="h-6 w-6 text-amber-500" />
-                    </div>
-                    <div>
-                      <h4 className="font-medium">Participate in Tournaments</h4>
-                      <p className="text-sm text-gray-400">Earn 25-100 Measter Coins per tournament</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-4 rounded-lg border border-gray-800 p-4">
-                    <div className="rounded-full bg-amber-900/30 p-3">
-                      <Coins className="h-6 w-6 text-amber-500" />
-                    </div>
                     <div>
                       <h4 className="font-medium">Daily Login</h4>
                       <p className="text-sm text-gray-400">Earn 5 Measter Coins for logging in daily</p>
@@ -354,8 +331,8 @@ export default function Home() {
                         <Zap className="h-6 w-6 text-yellow-500" />
                       </div>
                       <div>
-                        <h4 className="font-medium">Game Skins</h4>
-                        <p className="text-sm text-gray-400">Exclusive in-game items</p>
+                        <h4 className="font-medium">$5 CS2 Skin </h4>
+                        <p className="text-sm text-gray-400">Receive a $5 CS2 Skin</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-1 text-amber-500">
@@ -385,20 +362,20 @@ export default function Home() {
           <div className="mx-auto max-w-3xl rounded-2xl border border-gray-800 bg-gray-900/80 p-8 text-center backdrop-blur-sm">
             <h2 className="mb-4 text-4xl font-bold">Ready to Get Started?</h2>
             <p className="mb-8 text-gray-300">
-              Join thousands of players already enjoying enhanced rewards with code MEASTER
+              Join Hundreds of players already enjoying enhanced rewards with code MEASTER
             </p>
             <div className="mb-8 flex flex-col items-center justify-center">
               <div className="mb-4 rounded-lg border border-gray-700 bg-gray-800 px-6 py-3">
                 <span className="text-xl font-bold text-yellow-500">MEASTER</span>
               </div>
-              <p className="text-sm text-gray-400">Use this code during registration</p>
+              <p className="text-sm text-gray-400">Use this code on rain.gg!</p>
             </div>
             <Button
               asChild
               size="lg"
               className="bg-gradient-to-r from-yellow-500 to-amber-500 text-black hover:from-yellow-600 hover:to-amber-600"
             >
-              <Link href="/login">Register Now with Code MEASTER</Link>
+              <Link href="/login">Play Now with Code MEASTER</Link>
             </Button>
           </div>
         </div>
@@ -423,7 +400,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="text-sm text-gray-400 hover:text-white"
               >
-                Terms of Service
+                 
               </Link>
               <Link
                 href="https://rain.gg/privacy"
@@ -431,7 +408,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="text-sm text-gray-400 hover:text-white"
               >
-                Privacy Policy
+                 
               </Link>
               <Link
                 href="https://rain.gg/faq"
@@ -439,7 +416,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="text-sm text-gray-400 hover:text-white"
               >
-                FAQ
+                 
               </Link>
               <Link
                 href="https://rain.gg/support"
@@ -447,7 +424,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="text-sm text-gray-400 hover:text-white"
               >
-                Support
+                 
               </Link>
             </div>
           </div>
