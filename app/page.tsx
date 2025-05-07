@@ -23,14 +23,20 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <Link
-                href="https://rain.gg"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm font-medium text-gray-300 hover:text-white"
+              <Button
+                asChild
+                variant="outline"
+                className="border-gray-700 text-white hover:bg-gray-800"
               >
-                Visit Rain.gg
-              </Link>
+                <Link href="/leaderboard">Leaderboard</Link>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                className="border-gray-700 text-white hover:bg-gray-800"
+              >
+                <Link href="/socials">Socials</Link>
+              </Button>
               <Button
                 asChild
                 className="bg-gradient-to-r from-yellow-500 to-amber-500 text-black hover:from-yellow-600 hover:to-amber-600"
@@ -442,3 +448,4 @@ export default function Home() {
     </div>
   )
 }
+
