@@ -40,13 +40,13 @@ export default function Home() {
             </div>
           </nav>
 
-          <div className="mt-16 flex flex-col items-center justify-center text-center">
-            <div className="mb-6 inline-block rounded-full bg-gradient-to-r from-purple-500 to-pink-500 p-1">
+          <div className="mt-16 flex flex-col items-center justify-center text-center animate-fade-in-up">
+            <div className="mb-6 inline-block rounded-full bg-gradient-to-r from-purple-500 to-pink-500 p-1 animate-float">
               <div className="rounded-full bg-[#0d1117] px-4 py-1">
-                <span className="text-sm font-medium">CREATOR CODE</span>
+                <span className="text-sm font-medium animate-glow">CREATOR CODE</span>
               </div>
             </div>
-            <h1 className="mb-6 text-5xl font-bold leading-tight md:text-7xl">
+            <h1 className="mb-6 text-5xl font-bold leading-tight md:text-7xl hover:scale-105 transition-transform duration-300">
               Use Code{" "}
               <span className="bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent">
                 MEASTER
